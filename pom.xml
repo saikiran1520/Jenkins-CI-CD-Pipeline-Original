@@ -58,18 +58,10 @@
  </build>
   
 <distributionManagement>
-	<repository>
-		<id>maven-public</id>
-		<name>maven-public</name>
-		<url>http://192.168.7.101:8081/repository/maven-releases/</url>
-	</repository>
- 
-	<snapshotRepository>
-		<id>deploymentRepo</id>
-		<name>Internal Releases</name>
-		<url>http://192.168.7.101:8081/repository/maven-snapshots/</url>
-	</snapshotRepository>
-
+   <snapshotRepository>
+      <id>maven-public</id>
+      <url>http://192.168.7.101:8081/repository/maven-public/</url>
+   </snapshotRepository>
 </distributionManagement>
   
 </project>
