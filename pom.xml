@@ -74,8 +74,5 @@
       <url>http://192.168.7.101:8081/repository/mymaven</url>
       <layout>default</layout>
     </repository>
-      <snapshots>
-         <enabled>true</enabled>
-      </snapshots>
    </repositories>
 </project>
