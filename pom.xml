@@ -69,7 +69,6 @@
    </build>
    <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
       <id>maven-central</id>
       <name>maven-central</name>
       <url>http://192.168.7.101:8081/repository/maven-central</url>
