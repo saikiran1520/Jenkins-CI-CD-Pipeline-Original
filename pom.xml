@@ -76,6 +76,6 @@
     </repository>
       <snapshots>
          <enabled>true</enabled>
-      </snapshot>
+      </snapshots>
    </repositories>
 </project>
