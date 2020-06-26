@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+RUN sudo rm -rf /var/lib/apt/lists/*
 RUN apt-get -y update && apt-get -y upgrade
 RUN apt-get -y install openjdk-8-jdk wget
 RUN mkdir /usr/local/tomcat
